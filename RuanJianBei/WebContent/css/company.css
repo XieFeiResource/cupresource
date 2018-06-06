@@ -1,0 +1,110 @@
+/*ѡ���ʾ�����ⲿ���*/
+#outStruct {
+	width:80%;
+	height:700px;
+	margin-top:50px;
+	margin-left:auto;
+	margin-right:auto;
+	border:1px solid red;
+}
+
+/* ��˾��Ϣ��ʾ����*/
+#tableWrapper {
+	width:800px;
+	height:600px;
+	margin-top:50px;
+	margin-left:auto;
+	margin-right:auto;
+}
+#tableWrapper td{
+	width:auto;
+	min-width:130px;
+	text-align: left;
+	padding-left:8px;
+}
+
+#table_1 {
+	width:100%;
+	height:30%;
+	color:white;
+	
+}
+#table_2 {
+	width:100%;
+	height:70%;
+	color:white;
+	margin-top:5px;
+}
+
+#table_2 td{
+	border: 1px solid #f1f2f6;
+}
+
+/*Ͷ������ͼ��ʾ*/
+#showzupu {
+	margin:auto;
+	margin-top:40px;
+	border:1px solid red;
+	background-color: #f1f2f6;
+}
+
+/*jQuery ui����*/
+.ui-autocomplete {
+    max-height: 140px;
+    overflow-y: hidden;
+    /* prevent horizontal scrollbar */
+    overflow-x: hidden;
+}
+* html .ui-autocomplete {
+    height: 100px;
+ }
+ 
+/*Ͷ�����ײ㼶ѡ��*/
+.content{
+   	width: 400px;
+   	margin: auto;
+ }
+.content1{
+    width: 75px;
+    height: 30px;
+   	border:1px solid #F7F7F7;
+	border-radius:10px;
+	background-color: #F7F7F7;
+	margin-right: 10px;
+	margin-left: 5px;
+	color:black;
+ }
+.stockInput,.companyInput{
+    display: block;
+    width: 50px;
+    border: none;
+    padding-top: 3px;
+ }
+.tfx{
+   display: block;
+   position: relative;
+ }
+.fangxiang{
+	cursor: pointer;
+    padding-right: 5px;
+    position: relative;
+    top: -2px;
+ }
+.desc{
+    display: block;
+    padding-top: 5px;
+ }
+ 
+ /*��ҵ����ͼ��ʾ*/
+ #corpzupu {
+	margin:auto;
+	margin-top:40px;
+	border:1px solid red;
+	background-color: #f1f2f6;
+}
+ #yisiguanxi {
+	margin:auto;
+	margin-top:40px;
+	border:1px solid red;
+	background-color: #f1f2f6;
+}

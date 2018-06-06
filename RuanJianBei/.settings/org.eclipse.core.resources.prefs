@@ -1,0 +1,6 @@
+eclipse.preferences.version=1
+encoding//src/edu/abc/ruanjianbei/control/CompanyServlet.java=GBK
+encoding//src/edu/abc/ruanjianbei/model/dao/BaseDaoImpl.java=UTF-8
+encoding//src/edu/abc/ruanjianbei/model/dao/CompanyDaoImpl.java=GBK
+encoding//src/edu/abc/ruanjianbei/model/dao/CompanyPertainsDao.java=GBK
+encoding//src/edu/abc/ruanjianbei/model/dao/CompanyPertainsDaoImp.java=GBK
