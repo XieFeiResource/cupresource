@@ -147,20 +147,7 @@ function drawTouziTree(treeData) {
 			data : treeData,
 			top : '5%',
 			layout : 'radial',
-			symbol : 'circle',
 			symbolSize : 10,
-			itemStyle : {//树图中每个节点的样式
-				normal : {
-					color : '#ffffff',
-					borderColor : '#b03a5b',
-					borderWidth : 2
-				},
-				emphasis : {
-					color : '#000',
-					borderColor : '#b03a5b',
-					borderWidth : 5
-				}
-			},
 			label: {
 				show:true,
 				formatter: function(params) {
@@ -174,7 +161,20 @@ function drawTouziTree(treeData) {
 		              return result;
 		           },
 			},
+                leaves: {
+                    label: {
+                        normal: {
+                            position: 'top',
+                        }
+                    }
+                },
+				
+				itemStyle:{//树图中每个节点的样式
+					color:'#000'
+				},
 			initialTreeDepth : 9,
+			expandAndCollapse: true,
+            animationDuration: 550,
 			animationDurationUpdate : 750
 		} ]
 
@@ -232,20 +232,7 @@ function drawCorpTree(treeData) {
 			data : treeData,
 			top : '5%',
 			layout : 'radial',
-			symbol : 'circle',
 			symbolSize : 10,
-			itemStyle : {//树图中每个节点的样式
-				normal : {
-					color : '#ffffff',
-					borderColor : '#b03a5b',
-					borderWidth : 2
-				},
-				emphasis : {
-					color : '#000',
-					borderColor : '#b03a5b',
-					borderWidth : 5
-				}
-			},
 			label: {
 				show:true,
 				formatter: function(params) {
@@ -259,7 +246,20 @@ function drawCorpTree(treeData) {
 		              return result;
 		           },
 			},
+                leaves: {
+                    label: {
+                        normal: {
+                            position: 'top',
+                        }
+                    }
+                },
+				
+				itemStyle:{//树图中每个节点的样式
+					color:'#000'
+				},
 			initialTreeDepth : 3,
+			expandAndCollapse: true,
+            animationDuration: 550,
 			animationDurationUpdate : 750
 		} ]
 
@@ -350,7 +350,8 @@ function drawGraphTree(treeDatadata,treeDatalinks) {
 		            force: {
 		                repulsion: 1000
 		            },
-		            edgeSymbolSize: [4, 50],
+		            edgeSymbol: ['circle', 'arrow'],
+		            edgeSymbolSize: [0, 8],
 		            edgeLabel: {
 		                normal: {
 		                    show: true,
